@@ -745,13 +745,27 @@ nav a:visited {
 /*individual project end*/
 
 /*footer start*/
-.footer {
-	/*position: fixed;*/
-	background-color: #222222;
-	color: #fafafa;
-	padding: 2rem;
-	font-size: 0.85rem;
-	line-height: 1rem;
-	/*width: 1309.32px;*/
+footer {
+	background-color: black;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+footer p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color:white;
+}
+
+footer img{
+    width: 73.5px;
+    display: flex;
+    margin: auto;
+}
+footer .ftlo{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    margin: auto;
 }
 /*footer end*/
