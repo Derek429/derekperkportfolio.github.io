@@ -1,0 +1,131 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="keywords" content="template, HTML, CSS, JS, tutorial">
+        <meta name="description" content="This is a tutorial for how to create a basic HTML, CSS and JS website">
+        <meta name="author" content="Derek Perkins">
+
+        <title>Personal Portfolio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/Portfolio-Styles.css">
+
+        <script src="https://kit.fontawesome.com/6d2693ed03.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="Home.html" class="navbar-brand"><img src="img/Logo.png"></a>
+                <button class="navbar-toggler" type="button" data-target="#main-navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                
+                <ul id="main-navigation" class="navbar open">
+                    <li><a href="Home.html" title="home">Home</a></li>
+                    <li><a href="About Me.html" title="about">About</a></li>
+                    <li><a href="Projects.html" title="about">Projects</a></li>
+                    <li class="dropdown"><a href="#" title="projects">Recent Projects</a>
+                        <ul>
+                            <li><a href="IndiProject.html" title="project-2">Golf</a></li>
+                            <li><a href="http://ctech2350.drp9303.uta.cloud/assignment/index.html" title="project-3">One Book</a></li>
+                            <li><a href="https://youtu.be/_ddxTkGj8xw" title="project-3">Piano</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="Contact.html" title="contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class = "container">
+            <div class = "row contct">
+                <div class = "col-lg-6 col-md-12 col-sm-12 CI">
+                    <h2>Contact</h2>
+                    <p>Email: derek429perk@gmail.com</p>
+                    <p>Phone Number: 817-514-0353</p>
+                    <div class="SocialMedia">
+                        <ul>
+                            <li><img src="img/twitter.png.svg"></li>
+                            <li><img src="img/Facebook.png"></li>
+                            <li><img src="img/insta.png"></li>
+                            <li><img src="img/Snapchat.png"></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class = "col-lg-6 col-md-12 col-sm-12">
+                    <h2>Contact Form</h2>
+                    <div class="Form">
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <div class="form-control">
+                                <input
+                                    type="text"
+                                    name="name"
+                                    id="name"
+                                    placeholder="Name:"
+                                    max-length="50"
+                                    autocomplete="off"
+                                />
+                            </div>
+        
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <div class="form-control">
+                                    <input
+                                        type="text"
+                                        name="email"
+                                        id="email"
+                                        placeholder="Email"
+                                        max-length="40"
+                                        autocomplete="off"
+                                    />
+                                </div>
+                            </div>
+        
+                            <div class="form-group">
+                                <label for="number">Phone Number:</label>
+                                <div class="form-control">
+                                    <input
+                                        type="text"
+                                        name="number"
+                                        id="number"
+                                        placeholder="Phone Number"
+                                        max-length="11"
+                                        autocomplete="off"
+                                    />
+                                </div>
+                            </div>
+        
+                            <div class="form-group">
+                                <label for="reason">Reason For Contact:</label>
+                                <div class="form-control">
+                                    <textarea
+                                        name="reason"
+                                        id="reason"
+                                    >
+                                    </textarea>
+                                </div>
+                            </div>
+        
+                            <div class="form-group">
+                                <div class="submit">
+                                    <input type="submit" name="submit" id="submit" value="Submit"/>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="reset">
+                                    <input type="reset" name="reset" id="reset" value="Reset the Form"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            Derek Perkins | CTEC 3350 | For academic use only
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="js/app.js"></script>
+    </body>
+</html>
